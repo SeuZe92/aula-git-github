@@ -2,11 +2,9 @@ import java.util.Scanner;
 
 public class pratica4 {
 
-	private static Scanner scan;
-
 	public static void main(String[] args) {
 
-		scan = new Scanner(System.in);
+		Scanner scan = new Scanner(System.in);
 
 		System.out.println("Informe seu peso(kg):");
 		double peso = scan.nextDouble();
